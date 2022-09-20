@@ -1,0 +1,4 @@
+异常、json工具、数据库切换、sprintboot整合mybatisplus、redis多模式切换、redis分布式锁、任务调度
+触发器：Trigger为执行任务的触发器，可以设置特定时间执行该任务SimpleTrigger和CronTrigger
+调度器：Scheduler为任务的调度器，它将任务job以及触发器Trigger整合起来，负责基于Trigger设定的时间来执行job
+swagger访问地址：http://localhost:1001/swagger-ui.html#/

@@ -1,0 +1,5 @@
+server.port: 1001
+dbconfig:
+  url: jdbc:mysql://106.128.17.74:3306/task_manage?serverTimezone=UTC&autoReconnect=true
+  username: root
+  userpswd: root

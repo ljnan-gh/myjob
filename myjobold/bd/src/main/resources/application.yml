@@ -1,0 +1,42 @@
+server.ip: 127.0.0.1
+
+spring:
+  profiles:
+    active: dev,dbinfo #目前dev这个配置文件没有用
+
+redis:
+  pool:
+    max-total: 80
+    max-idle: 80
+    min-idle: 0
+    max-wait: -1
+    max-active: 80
+  #    cluster:
+  #      nodes: 127.0.0.1:6388,127.0.0.1:6379
+  #      max-redirects: 3
+  #      password: root
+  #      database: 1
+  #      timeout: 2000
+  #    sentinel:
+  #      master: mymaster
+  #      nodes: 106.128.7.116:6380,106.128.7.117:6380,106.128.7.118:6380
+  #      password: root
+  #      database: 1
+  #      timeout: 2000
+  standalone:
+    host: 106.128.17.74
+    port: 6379
+    password: KXMlQhHa8Yeykk8tXI8hXQ==
+    max-idle: 8
+    min-idle: 0
+    database: 1
+mybatis-plus:
+  mapper-locations: classpath*:mapping/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+#密码加密
+encryptor:
+  enpd: yx
+  algorithm: PBEWithMD5AndDES
+app:
+  jobThreadNumber: 

@@ -1,0 +1,4 @@
+# Project exclude paths
+/myjobold/bd/target/
+/myjobold/common/target/
+/myjobold/core/target/

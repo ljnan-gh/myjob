@@ -1,0 +1,22 @@
+#  连接池连接信息
+druidpool:
+  initial-size: 5
+  min-idle: 5
+  max-active: 20
+  max-wait: 20000
+
+#   以下配置数据源信息
+Default:
+  url: jdbc:mysql://127.0.0.1:3306/tttt?serverTimezone=UTC&autoReconnect=true
+  username: root
+  #password: KXMlQhHa8Yeykk8tXI8hXQ==
+  password: KXMlQhHa8Yeykk8tXI8hXQ==
+  driver: com.mysql.cj.jdbc.Driver
+  datasourceId: Default
+Db2:
+  url: jdbc:mysql://106.128.7.115:3366/ksh?serverTimezone=UTC&autoReconnect=true
+  username: vsv
+  password: 2izVGaj7rhP3o+HTjzZ5qJHf6fhAUDQr
+  #password: vsv321Admin
+  driver: com.mysql.jdbc.Driver
+  datasourceId: Db2

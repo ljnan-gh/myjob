@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myjobold/bd/bd.iml" filepath="$PROJECT_DIR$/myjobold/bd/bd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjobold/common/common.iml" filepath="$PROJECT_DIR$/myjobold/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjobold/core/core.iml" filepath="$PROJECT_DIR$/myjobold/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjobold/myjob.iml" filepath="$PROJECT_DIR$/myjobold/myjob.iml" />
+    </modules>
+  </component>
+</project>
